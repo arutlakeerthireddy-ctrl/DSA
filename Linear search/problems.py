@@ -12,7 +12,7 @@ myarr=[5,3,8,2]
 target=8
 print(find_element(myarr,target))#True
 
-'''Count Occurrences
+'''2.Count Occurrences
 Count how many times a target appears.
 Example:
 Input: [2,3,2,4,2], target=2
