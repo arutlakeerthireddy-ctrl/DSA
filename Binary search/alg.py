@@ -46,10 +46,21 @@ def binary_search(arr,target):
 arr=[2,4,7,8,9,11]
 target=9
 print(binary_search(arr,target))#4
-
-
-
-
+def binary_search_1(arr_1,target_element):
+    left=0
+    right =len(arr)-1
+    while left <= right:
+        mid=(left+right)//2
+        if arr[mid]==target_element:
+            return mid
+        elif arr[mid]<target_element:
+            left = mid+1
+        else:
+            right = mid -1
+    return - 1
+arr=[4,7,9,10,32]
+target_element=10
+print(binary_search_1(arr,target_element))#3
 
 
 
