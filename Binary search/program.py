@@ -20,5 +20,5 @@ def first_occurrence(arr,target):
     return ans
 arr=[1,2,2,2,3,4]
 target=2
-print(first_occurrence(arr,target))
+print(first_occurrence(arr,target))#1
         
