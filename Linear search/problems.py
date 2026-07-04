@@ -1,4 +1,4 @@
-'''1.Find an Element
+'''Find an Element
 Given an array and a target, return whether the target exists.
 Example:
 Input: [5, 3, 8, 2], target = 8
@@ -12,7 +12,7 @@ myarr=[5,3,8,2]
 target=8
 print(find_element(myarr,target))#True
 
-'''2.Count Occurrences
+'''Count Occurrences
 Count how many times a target appears.
 Example:
 Input: [2,3,2,4,2], target=2
