@@ -12,7 +12,7 @@ for each index:
 output array is sorted
 
 '''
-#program
+#program..
 def counting_sort(arr):
     max_value=max(arr)
     count=[0]*(max_value+1)
