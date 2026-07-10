@@ -11,7 +11,7 @@ Place each element in its correct position using the count array.
 Decrease the corresponding count.
 Copy the output array back to the original array if needed.'''
 
-#program 
+#1.program 
 def stable_counting_sort(arr): #arr=[4,7,8,1,3,4]
     max_value=max(arr) #8           0 1 2 3 4 5 6 7 8
     count=[0]*(max_value+1) #count=[0 0 0 0 0 0 0 0 0]
