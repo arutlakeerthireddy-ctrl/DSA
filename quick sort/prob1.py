@@ -1,4 +1,4 @@
-#Count the number of swaps made during Quick Sort.
+#1.Count the number of swaps made during Quick Sort.
 count=0
 def Hoare(arr,low,high):
     global count
