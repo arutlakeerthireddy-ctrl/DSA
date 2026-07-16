@@ -27,7 +27,7 @@ quick sort is faster than remaining algorithms'''
 6.continue until each subarray contains 0 or 1 element
 7.the array is now completely sorted'''
 
-#program:last element as pivot(lomuto partition scheme)
+#1.program:last element as pivot(lomuto partition scheme)
 def partition(arr,low,high):#[8 3 1 7 0 10 2],0,6
     pivot=arr[high] #arr[6]=2
     i=low-1 #i=0-1=-1
