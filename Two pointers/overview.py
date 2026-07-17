@@ -16,7 +16,7 @@ it  helps reduce time complexity from O(n**2) to O(n) in many problems
 #example:
 array=[1,2,3,4,6]
        L       R   '''
-#pogram: Find if there are two numbers whose sum is equal to the target.
+#pogram1: Find if there are two numbers whose sum is equal to the target.
 def Two_pointers(arr,target):
     left=0
     right=len(arr)-1
