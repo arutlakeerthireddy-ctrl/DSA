@@ -47,7 +47,7 @@ def Reverse_array(arr):
 arr=[1, 2, 3, 4, 5]
 print(Reverse_array(arr))#[5, 4, 3, 2, 1]
 
-#check palindrome
+#3.check palindrome
 def check_palindrome(arr):
     left=0
     right=len(arr)-1
