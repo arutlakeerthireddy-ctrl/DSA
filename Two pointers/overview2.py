@@ -16,7 +16,7 @@ def remove_duplicates(arr):#[1,1,2,2,3]
 arr=[1,1,2,2,3]
 length=remove_duplicates(arr)
 print(length)
-print(arr[:length])#[1, 2, 3]
+print(arr[:length])#3,[1, 2, 3]
 
 
 
