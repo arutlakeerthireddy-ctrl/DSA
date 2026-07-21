@@ -7,7 +7,7 @@ def move_zeroes(arr):
     if not arr:
         return 0
     slow=0
-    for fast in range(1,len(arr)):
+    for fast in range(len(arr)):
         if arr[fast]!=0:
             arr[slow],arr[fast]=arr[fast],arr[slow]
             slow+=1
