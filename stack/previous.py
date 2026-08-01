@@ -17,7 +17,7 @@ def Near_Greater(arr):
 arr=[4,5,2,10,8]
 print(Near_Greater(arr))#[-1,-1,5,-1,10]
 
-'''Find the nearest smaller element on the left.
+'''2.Find the nearest smaller element on the left.
 Input
 arr = [4,5,2,10,8]
 Output
