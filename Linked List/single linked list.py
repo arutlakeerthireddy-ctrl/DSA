@@ -65,3 +65,42 @@ Before insertion:
 10->20->30->None
 After insertion:
 5->10->20->30->None'''
+
+#Insertion at end
+'''
+create a new node
+if the list is empty,make the new node the head
+traverse to the last node
+set the last nodes next to the new node'''
+class Node:
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+n1=Node(10)
+n2=Node(20)
+n3=Node(30)
+n1.next=n2
+n2.next=n3
+head=n1
+print("Before Insertion:")
+cur=head
+while cur:
+    print(cur.data,end="->")
+    cur=cur.next
+print('None')
+new=Node(40)
+temp=head
+while temp.next:
+    temp=temp.next
+temp.next=new
+print('After insertion:')
+cur=head
+while cur:
+    print(cur.data,end="->")
+    cur=cur.next
+print('None')
+'''
+Before Insertion:
+10->20->30->None
+After insertion:
+10->20->30->40->None'''
