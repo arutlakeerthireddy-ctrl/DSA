@@ -1,11 +1,6 @@
 class Solution(object):
     def asteroidCollision(self, asteroids):
-        """
-        :type asteroids: List[int]
-        :rtype: List[int]
-        """
         stack=[]
-        
         for asteroid in asteroids:
             alive=True
             while stack and stack[-1]>0 and asteroid<0:
@@ -21,5 +16,8 @@ class Solution(object):
             if alive:
                 stack.append(asteroid)
 
-            
         return stack
+obj=Solution()
+asteroids = [5, 10, -5]
+result=obj.asteroidCollision(asteroids)
+print(result)
