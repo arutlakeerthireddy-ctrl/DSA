@@ -1,4 +1,4 @@
-#For every element, find the nearest smaller element on its right.
+#1.For every element, find the nearest smaller element on its right.
 def Next_smaller(arr):
     stack=[]
     answer=[-1]*len(arr)
