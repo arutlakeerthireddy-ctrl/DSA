@@ -1,4 +1,4 @@
-#Basic queue using an array and two pointers
+#1.Basic queue using an array and two pointers
 queue=[None]*5
 front=0
 rear=-1
