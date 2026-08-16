@@ -1,5 +1,5 @@
 '''
-Palindrome Checker
+1.Palindrome Checker
 Goutam says a number to Tanul. Tanul reverses it and checks if it equals the original:
 print Palindrome if yes, Not a Palindrome if no. If the number is negative, print Invalid Input. 
 EXAMPLE Input: 21212 Output: Palindrome'''
