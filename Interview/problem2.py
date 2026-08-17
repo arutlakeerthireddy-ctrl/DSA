@@ -1,5 +1,5 @@
 '''
-Discounted Sum
+2.Discounted Sum
 Given an array of integers and an integer n, find the sum of the n largest unique elements,
 then subtract the largest of those n elements (a discount).Return the result. 
 If n is greater than the number of unique elements, return 0.
