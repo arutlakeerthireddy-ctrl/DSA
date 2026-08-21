@@ -1,4 +1,4 @@
-#Count Vowels 
+#6.Count Vowels 
 # Write a function to count the number of vowels in a given string.
 def Count_vowels(s):
     count=0
