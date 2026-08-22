@@ -1,4 +1,4 @@
-#Minimum Element 
+#8.Minimum Element 
 #Write a function to find the minimum element in an array.
 def Minimum(arr):
     return min(arr)
