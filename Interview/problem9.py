@@ -1,4 +1,4 @@
-#Maximum Element 
+#9.Maximum Element 
 # Write a function to find the maximum element in an array.
 def Maximum(arr):
     return max(arr)
