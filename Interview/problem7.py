@@ -1,4 +1,4 @@
-#Check Prime Write a function to check if a given number is prime.
+#7.Check Prime Write a function to check if a given number is prime.
 def check_prime(num):
     if num<2:
         return 'Not prime'
