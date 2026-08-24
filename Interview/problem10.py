@@ -1,4 +1,4 @@
-#String Palindrome 
+#10.String Palindrome 
 #Write a function to check if a given string is a palindrome.
 def str_palind(s):
     if s==s[::-1]:
