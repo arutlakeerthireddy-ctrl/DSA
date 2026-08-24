@@ -77,8 +77,9 @@ for ch in str(num):
 print(add)
 
 #11. Reverse a string.
-s="keerthi"
+s="keerthi reddy"
 print(s[::-1])
+
 #12. Check whether a string is a palindrome.
 s="wowow"
 if s==s[::-1]:
