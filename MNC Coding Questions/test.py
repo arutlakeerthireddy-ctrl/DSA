@@ -33,6 +33,7 @@ if num%2==0:
     print('Even')
 else:
     print('Odd')
+
 #6. Calculate factorial.
 def factorial(num):
     if num<0:
@@ -79,12 +80,12 @@ print(add)
 s="keerthi"
 print(s[::-1])
 #12. Check whether a string is a palindrome.
-s="wow"
+s="wowow"
 if s==s[::-1]:
     print('Palindrome')
 else:
     print('Not')
-    
+
 #13. Count vowels and consonants.
 s=input("Enter:")
 vowels="aeiouAEIOU"
