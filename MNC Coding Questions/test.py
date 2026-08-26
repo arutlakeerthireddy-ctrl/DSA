@@ -6,6 +6,7 @@ a=2
 b=5
 a,b=b,a
 print(a,b)#5 2
+
 #3. Check whether a number is positive, negative or zero.
 num=10
 if num>0:
@@ -14,8 +15,8 @@ elif num<0:
     print('num is negative')
 else:
     print('num is zero')
-#4. Find the largest of three numbers.
 
+#4. Find the largest of three numbers.
 a=int(input("Enter num1: "))
 b=int(input("Enter num2 :"))
 c=int(input("Enter num3:"))
@@ -25,8 +26,8 @@ elif b>a and b>c:
     print('b is large')
 else:
     print('c is large')
-#5. Check whether a number is even or odd.
 
+#5. Check whether a number is even or odd.
 num=int(input("Enter num:"))
 if num%2==0:
     print('Even')
@@ -41,6 +42,7 @@ def factorial(num):
         fact=fact*i
     return fact
 print(factorial(5))#120
+
 #7. Generate Fibonacci numbers.
 def fibonacci(n):
     a=0
@@ -61,6 +63,7 @@ if count==2:
     print('num is prime')
 else:
     print('Not prime')
+
 #9. Reverse an integer.
 n=int(input())
 print(int((str(n))[::-1]))
@@ -81,6 +84,7 @@ if s==s[::-1]:
     print('Palindrome')
 else:
     print('Not')
+    
 #13. Count vowels and consonants.
 s=input("Enter:")
 vowels="aeiouAEIOU"
