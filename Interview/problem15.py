@@ -11,5 +11,6 @@ def Binary_search(arr,tar):
             left+=1
         else:
             right-=1
+            
 arr=[3,4,5,6,9]
 print(Binary_search(arr,6))#3
