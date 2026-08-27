@@ -1,5 +1,6 @@
 #1. Print Hello World without using a variable.
 print('Hello World')#Hello World
+
 #2. Swap two numbers without a third variable.
 a=2
 b=5
