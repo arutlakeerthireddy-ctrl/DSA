@@ -1,6 +1,6 @@
 #14.Find All Duplicates 
 # Given an array where elements may appear more than once, find all duplicates.
-arr=[2,3,4,2,6]
+arr=[2,3,4,2,6,4]
 result=[]
 freq={}
 for num in arr:
@@ -8,7 +8,7 @@ for num in arr:
 for key in freq:
     if freq[key]>1:
         result.append(key)
-print(result)#[2]
+print(result)#[2,4]
 
 
 
