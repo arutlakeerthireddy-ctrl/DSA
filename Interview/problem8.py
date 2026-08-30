@@ -3,3 +3,7 @@
 def Minimum(arr):
     return min(arr)
 print(Minimum([4,7,1,3]))#1
+
+def Minimum(arr):
+    return min(arr)
+print(Minimum([4,7,11,3]))
