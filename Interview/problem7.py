@@ -7,5 +7,5 @@ def check_prime(num):
             return 'Not prime'
         else:
             return 'prime'
-num=10
+num=13
 print(check_prime(num))
