@@ -19,7 +19,7 @@ Remove 20, print it, and add its children (40, 50).
 Remove 30, print it, and add its children (60, 70).
 Continue until the queue is empty.'''
 
-
+'''
 class Node:
     def __init__(self,data):
         self.data=data
@@ -46,7 +46,7 @@ root.right.left=Node(6)
 root.right.right=Node(6)
 
 level_order(root)
-#1 2 3 4 5 6 6 
+#1 2 3 4 5 6 6 '''
     
 #DFS using stack
 class Node:
