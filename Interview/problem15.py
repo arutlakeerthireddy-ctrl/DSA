@@ -1,5 +1,6 @@
 #15.Binary Search 
 #Implement binary search to find a target value in a sorted array.
+
 def Binary_search(arr,tar):
     left=0
     right=len(arr)-1
