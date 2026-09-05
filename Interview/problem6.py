@@ -6,5 +6,5 @@ def Count_vowels(s):
         if ch in 'aeiou':
             count+=1
     return count
-s='keerthi'
+s='keerthi reddy'
 print(Count_vowels(s))#3
