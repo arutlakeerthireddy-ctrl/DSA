@@ -2,4 +2,4 @@
 def Rev_Int(num):
     num1=str(num)
     return int(num1[::-1])
-print(Rev_Int(234))#432
+print(Rev_Int(678))#876
