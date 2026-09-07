@@ -6,5 +6,5 @@ def Count_vowels(s):
         if ch in 'aeiou':
             count+=1
     return count
-s='apple'
-print(Count_vowels(s))#2
+s='keerthi'
+print(Count_vowels(s))#3
