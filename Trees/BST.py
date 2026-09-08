@@ -82,4 +82,4 @@ root.right=Node(70)
 root.left.left=Node(10)
 root.left.right=Node(40)
 root=insert(root,65)
-print(find_max(root).data)#10
+print(find_max(root).data)#70
