@@ -63,4 +63,4 @@ root.right=Node(70)
 root.left.left=Node(10)
 root.left.right=Node(40)
 root=insert(root,65)
-print(find_min(root).data)
+print(find_min(root).data)#10
