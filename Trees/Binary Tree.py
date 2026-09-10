@@ -47,8 +47,6 @@ root.left.left=Node(4)
 root.left.right=Node(5)
 print(is_full(root))#True
               
-
-
 #2.complete binary tree:all levels are completely filled except possibly the last level,and the
 #last level is filled from left to right
 '''
@@ -87,8 +85,6 @@ root.left.left=Node(4)
 root.left.right=Node(5)
 print(is_complete(root))#True
               
-                     
-
 #3.perfect binary tree:Every internal node has exactly two children and all leaf nodes are at the same level
 '''     1
        / \
