@@ -58,6 +58,37 @@ print(is_full(root))#True
    / \ /
    4 5 6
 heaps are implemented using complete binary trees  '''
+#check complete binary tree
+class Node:
+       def __init__(self,data):
+              self.data=data
+              self.left=None
+              self.right=None
+from collections import deque
+def is_complete(root):
+       if root is None:
+              return True
+       queue=deque([root])
+       found_empty=False
+       while queue:
+              node=queue.popleft()
+              if node is None:
+                     found_empty=True
+              else:
+                     if found_empty:
+                            return False
+                     queue.append(node.left)
+                     queue.append(node.right)
+       return True
+root=Node(1)
+root.left=Node(2)
+root.right=Node(3)
+root.left.left=Node(4)
+root.left.right=Node(5)
+print(is_complete(root))#True
+              
+                     
+
 #3.perfect binary tree:Every internal node has exactly two children and all leaf nodes are at the same level
 '''     1
        / \
