@@ -64,3 +64,22 @@ root.left.left=Node(10)
 root.left.right=Node(40)
 root=insert(root,65)
 print(find_min(root).data)#10
+
+#BST Maximum:Maximum = rightmost node.
+class Node:
+    def __init__(self,data):
+        self.data=data
+        self.left=None
+        self.right=None
+def find_max(root):
+    current=root
+    while current.right:
+        current=current.right
+    return current
+root=Node(50)
+root.left=Node(30)
+root.right=Node(70)
+root.left.left=Node(10)
+root.left.right=Node(40)
+root=insert(root,65)
+print(find_max(root).data)#10
