@@ -4,10 +4,21 @@ class Node:
         self.data=data
         self.left=None
         self.right=None
-    def bst(root,value):
-        if root is None:
-            print(root.value,end=" ")
-        if root.left<root:
-            
+def search(root,key):
+    if root is None:
+        return False
+    if root.data==key:
+        return True
+    if key<root.data:
+        return search(root.left,key)
+    return search(root.right,key)
+root=Node(50)
+root.left=Node(30)
+root.right=Node(70)
+root.left.left=Node(10)
+root.left.right=Node(40)
+print(search(root,70))#TrueS
+    
+    
         
         

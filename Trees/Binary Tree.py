@@ -92,6 +92,7 @@ print(is_complete(root))#True
      / \  / \
     4  5  6  7
 for height h ,number of nodes is 2^(h+1)-1'''
+
 #4.Balanced binary tree:the height of left and right subtrees is kept reasonably close
 '''    10
       /  \
@@ -100,6 +101,7 @@ for height h ,number of nodes is 2^(h+1)-1'''
    3  7 15   25
 balanced trees helps maintain efficient operations
 examples include:AVL tree,Red-Black Tree'''
+
 #5.Degenerate/skewed binary tree:Each node has only one child
 '''   10
        \
