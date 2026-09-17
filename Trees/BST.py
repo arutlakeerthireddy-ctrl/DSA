@@ -45,3 +45,22 @@ Complexity
 Balanced BST: O(log N)
 Skewed BST: O(N)
 Recursion space: O(H)'''
+
+#BST Minimum:The minimum value is the leftmost node.
+class Node:
+    def __init__(self,data):
+        self.data=data
+        self.left=None
+        self.right=None
+def find_min(root):
+    current=root
+    while current.left:
+        current=current.left
+    return current
+root=Node(50)
+root.left=Node(30)
+root.right=Node(70)
+root.left.left=Node(10)
+root.left.right=Node(40)
+root=insert(root,65)
+print(find_min(root).data)
