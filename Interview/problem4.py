@@ -4,5 +4,5 @@ def Second_large_num(arr):
     arr1=sorted((set(arr)))
     arr1.reverse()
     return arr1[1]
-arr=[4,6,8,1,9]
-print(Second_large_num(arr))#8
+arr=[4,6,8,1,9,10]
+print(Second_large_num(arr))#9
