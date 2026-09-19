@@ -1,5 +1,6 @@
 #16..Merge Two Sorted Arrays
 #Write a function to merge two sorted arrays into one sorted array.
+
 def Merge_Two_sorted_arrays(num1,num2):
     return list(set(num1+num2))
 num1=[2,3,5,6]
