@@ -1,6 +1,5 @@
 #Write a program that counts the frequency of each unique word inside a text sentence.
-
-s='python is high level language'
+s='python is high level programming language'
 freq={}
 for word in s.split():
     freq[word]=freq.get(word,0)+1
