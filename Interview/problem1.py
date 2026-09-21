@@ -12,6 +12,6 @@ def palindrome_checker(num):
             return 'not palindrome'
     else:
         return 'Invalid input'
-print(palindrome_checker(21212))#palindrome
+print(palindrome_checker(121))#palindrome
 
     
