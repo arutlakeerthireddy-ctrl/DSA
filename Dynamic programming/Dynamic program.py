@@ -25,6 +25,7 @@ fib(5)
   |--fib(3)
       |--fib(2)
       |--fib(1)'''
+
 #fib(3) and fib(2) appear more than once.these are overlapping subproblems
 #optimal substructure:the solution to a big problem can be constructed from solutions to smaller problems
 #ex:fib(5)=fib(4)+fib(3)
