@@ -83,3 +83,4 @@ root.left.left=Node(10)
 root.left.right=Node(40)
 root=insert(root,65)
 print(find_max(root).data)#70
+
