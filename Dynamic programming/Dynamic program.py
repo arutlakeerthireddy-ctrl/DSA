@@ -10,6 +10,7 @@ def fib(n):
         return n
     return fib(n-1)+fib(n-2)
 print(fib(5))
+
 #note:fib(3),fib(2) are calculated repeatedly.this unnecessary work
 #Dp solves this problem by remembering previously calculated answers
 
