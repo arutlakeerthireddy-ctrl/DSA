@@ -1,6 +1,5 @@
 #3.Count Words 
 #Count the number of words in a string.
-
 s='keerthi reddy'
 count=0
 for ch in s:
