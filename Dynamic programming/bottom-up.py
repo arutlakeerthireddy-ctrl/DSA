@@ -9,5 +9,6 @@ def bottom_up(n):
         dp[i]=dp[i-1]+dp[i-2]
     return dp[n]
 print(bottom_up(5))#8
+
 #time complexity=O(n)
 #space complexity=O(n)
