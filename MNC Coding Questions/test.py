@@ -1,13 +1,13 @@
-#1. Print Hello World without using a variable.
+#1.Print Hello World without using a variable.
 print('Hello World')#Hello World
 
-#2. Swap two numbers without a third variable.
+#2.Swap two numbers without a third variable.
 a=2
 b=5
 a,b=b,a
 print(a,b)#5 2
 
-#3. Check whether a number is positive, negative or zero.
+#3.Check whether a number is positive, negative or zero.
 num=10
 if num>0:
     print('num is positive')#num is positive
